@@ -31,7 +31,7 @@ Development plan:
 
 step1: create basic layout and navigation structure using html and css
 
-step2: implement responsive desgin
+step2: implement responsive design
 
 step3: begin integrating React components
 
@@ -39,7 +39,7 @@ step4: working on the back-end using Django
 
 Challenges Anticipated:
 
-.implemeting React and Django may be the main challenge as a beginner in web development
+.implemeting React, javascript and Django may be the main challenge as a beginner in web development
 
 . making the website responsive
 
