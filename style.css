@@ -319,6 +319,9 @@ section{
     text-transform: capitalize;
 }
 
+
+
+
 @media(max-width:890px){
     header{
         padding: 20px 3%;
