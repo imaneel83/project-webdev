@@ -1,0 +1,251 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+    
+    <title>trendy threads | online clothing store</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="{% static 'store/images/logo2.png' %}" alt=""> </a>
+
+        <ul class="navmenu">
+            <li><a href="#">Home</li>
+            <li><a href="#">Shop</li>
+            <li><a href="#">Products</li>
+            <li><a href="#">Page</li>
+            <li><a href="#">Docs</li>
+            
+        </ul>
+
+        <div class="nav-icon">
+            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+
+            <div class="fa fa-bars" aria-hidden="true" id="menu-icon"></div>
+        </div>
+
+    </header>
+
+    <!--Products section-->
+<section class="featured-product" id="featured">
+    <div class="center-text">
+        <h2>Our  featured  <span> Products</span></h2>
+    </div>
+
+    <div class="products">
+        <div class="row">
+            <img src="{% static 'store/images/item1.png' %}" alt="">
+            <div class="product-text">
+                <h5>Sale</h5>
+            </div>
+            <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="ratting">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <div class="price">
+                <h4>Doll colar dress</h4>
+                <p>$64.00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="images/item2.png" alt="">
+            <div class="product-text">
+                <h5>New</h5>
+            </div>
+            <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="ratting">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+    
+            <div class="price">
+                <h4>Clasi Womens's fashion</h4>
+                <p>$50.99</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="images/item3.png" alt="">
+            
+            <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="ratting">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+        
+            <div class="price">
+                 <h4>Joress casual cotton</h4>
+                 <p>$42.00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="images/item4.png" alt="">
+            <div class="product-text">
+                <h5>Sale</h5>
+            </div>
+            <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="ratting">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            
+            <div class="price">
+                <h4>Summer cozi split</h4>
+                <p>$64.00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="images/item5.png" alt="">
+            <div class="product-text">
+                <h5>New</h5>
+            </div>
+            <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="ratting">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                
+            <div class="price">
+                <h4>summer mod top</h4>
+                <p>$20.00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="images/item6.png" alt="">
+            
+            <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="ratting">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                    
+             <div class="price">
+                <h4>Floral print tie</h4>
+                <p>$71.55</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="images/item7.png" alt="">
+            <div class="product-text">
+                <h5>New</h5>
+            </div>
+            <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="ratting">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                        
+            <div class="price">
+                <h4>casual combinaison</h4>
+                <p>$88.00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="images/item8.png" alt="">
+            <div class="product-text">
+                <h5>Sale</h5>
+            </div>
+            <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="ratting">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                            
+            <div class="price">
+                <h4>Simple retro floral</h4>
+                <p>$38.99</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="images/item9.png" alt="">
+            <div class="product-text">
+                <h5>Sale</h5>
+            </div>
+            <div class="heart-icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="ratting">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+                            
+            <div class="price">
+                <h4>casual top v col</h4>
+                <p>$56.99</p>
+            </div>
+        </div>
+
+                                        
+    </div>
+
+</section>
+<script src="{% static 'store/js/java.js' %}"></script>
+    
+</body>
+</html>
+
